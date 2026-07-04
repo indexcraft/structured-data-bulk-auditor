@@ -1,0 +1,37 @@
+# ============================================================
+# Structured Data Bulk Auditor — Config
+# ============================================================
+
+# Option A: point at a sitemap and the tool discovers URLs automatically.
+# Option B: list specific URLs directly. If both are given, sitemap URLs
+# are added on top of the explicit list (duplicates removed automatically).
+
+sitemap_url: ""   # e.g. "https://indexcraft.in/sitemap.xml"  (leave blank to skip)
+
+urls:
+  - "https://indexcraft.in/"
+  # add more page URLs here, one per line
+
+# Safety cap so a huge sitemap doesn't accidentally trigger thousands of
+# requests. Set higher once you trust the tool on your site.
+max_urls: 50
+
+# Seconds to wait between page fetches — be polite to your own server too.
+request_delay_seconds: 1.0
+
+# Which schema.org @type checks to run. Turn off any you don't use.
+checks:
+  Article: true
+  BlogPosting: true
+  NewsArticle: true
+  FAQPage: true
+  BreadcrumbList: true
+  Product: true
+  HowTo: true
+  WebPage: true
+  WebSite: true
+  Organization: true
+  LocalBusiness: true
+  VideoObject: true
+  Review: true
+  SoftwareApplication: true

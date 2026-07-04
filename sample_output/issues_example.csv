@@ -1,0 +1,18 @@
+url,schema_type,severity,field,message
+https://example.com/good-article,Article,ok,-,No issues found
+https://example.com/incomplete-article,Article,error,headline,Missing required field 'headline' for @type Article
+https://example.com/incomplete-article,Article,error,datePublished,Missing required field 'datePublished' for @type Article
+https://example.com/incomplete-article,Article,error,author,Missing required field 'author' for @type Article
+https://example.com/incomplete-article,Article,warning,image,Missing recommended field 'image' for @type Article
+https://example.com/incomplete-article,Article,warning,dateModified,Missing recommended field 'dateModified' for @type Article
+https://example.com/incomplete-article,Article,warning,publisher,Missing recommended field 'publisher' for @type Article
+https://example.com/incomplete-article,Article,warning,mainEntityOfPage,Missing recommended field 'mainEntityOfPage' for @type Article
+https://example.com/graph-page,Article,warning,image,Missing recommended field 'image' for @type Article
+https://example.com/graph-page,Article,warning,dateModified,Missing recommended field 'dateModified' for @type Article
+https://example.com/graph-page,Article,warning,publisher,Missing recommended field 'publisher' for @type Article
+https://example.com/graph-page,Article,warning,mainEntityOfPage,Missing recommended field 'mainEntityOfPage' for @type Article
+https://example.com/graph-page,BreadcrumbList,error,itemListElement[1].position,Breadcrumb item missing position
+https://example.com/graph-page,WebPage,warning,description,Missing recommended field 'description' for @type WebPage
+https://example.com/graph-page,WebPage,warning,url,Missing recommended field 'url' for @type WebPage
+https://example.com/no-schema,NONE,error,-,No JSON-LD structured data found on this page at all
+https://example.com/broken-json,INVALID_JSON,error,-,Malformed JSON-LD: Block #1: Expecting property name enclosed in double quotes: line 1 column 36 (char 35)
