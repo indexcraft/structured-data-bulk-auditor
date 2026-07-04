@@ -125,10 +125,3 @@ structured-data-bulk-auditor/
 ```
 
 ---
-
-## For your resume / portfolio
-
-Suggested bullet:
-> Built an open-source Python tool that bulk-audits JSON-LD structured data across a sitemap, validating schema.org compliance (required/recommended fields, `@graph` structure, FAQ/Breadcrumb/Product-specific rules) and flagging issues that affect rich-result eligibility.
-
-Push this to a public GitHub repo and link it directly from your resume/LinkedIn alongside the AI Citation Tracker — together they demonstrate both the "classic technical SEO" and "GEO/AI search" sides of the role.
